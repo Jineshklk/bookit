@@ -13,7 +13,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:5173",   // ✅ exact frontend
+    origin: "https://bookit-1-8w80.onrender.com/",   // ✅ exact frontend
     credentials: true,                // ✅ allow cookies / auth
     methods: ["GET", "POST", "PUT", "DELETE"], // ✅ prevent method block
     allowedHeaders: ["Content-Type", "Authorization"], // ✅ prevent header block
