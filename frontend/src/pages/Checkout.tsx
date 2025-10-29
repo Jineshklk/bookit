@@ -1,5 +1,5 @@
 // src/pages/Checkout.tsx
-import React, { useState } from "react";
+import  { useState } from "react";
 import Header from "../components/Header";
 import { useLocation, useNavigate } from "react-router-dom";
 import api from "../api/axiosInstance"; // your axios instance
