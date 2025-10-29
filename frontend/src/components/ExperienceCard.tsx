@@ -1,5 +1,5 @@
 // src/components/ExperienceCard.tsx
-import React from "react";
+
 import { useNavigate } from "react-router-dom";
 import type { Experience } from "../data/experiences";
 
