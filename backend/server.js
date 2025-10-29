@@ -37,7 +37,7 @@ mongoose
     console.log("✅ Connected to MongoDB Atlas");
     await seed(); // Auto seed data on first run
     app.listen(PORT, () =>
-      console.log(`🚀 Server running at http://localhost:${PORT}`)
+      console.log(`🚀 Server running at https://bookit-1-8w80.onrender.com/:${PORT}`)
     );
   })
   .catch((err) => {
