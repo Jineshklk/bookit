@@ -7,7 +7,7 @@ export default function Home() {
   const [experiences, setExperiences] = useState<any[]>([]);
 
   useEffect(() => {
-    fetch("http://localhost:4000/experiences")
+    fetch("https://bookit-c3lu.onrender.com/experiences")
       .then((res) => res.json())
       .then((data) => setExperiences(data))
       .catch((err) => console.error("Error fetching experiences:", err));
