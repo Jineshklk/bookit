@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:4000", // your backend URL
+  baseURL: "https://bookit-c3lu.onrender.com", // your backend URL
   withCredentials: true, // only if you're using cookies/JWT later
 });
 
